@@ -1,0 +1,9 @@
+//This is a solution to: https://www.hackerrank.com/challenges/save-the-prisoner/problem
+
+
+int saveThePrisoner(int n, int m, int s) {
+    //n=number of users     m=number of candies     s=selected user
+    int u=((m%n+s)-1)%n;
+    u=(u==0?n:u);
+    return u;
+}
