@@ -1,3 +1,4 @@
+        /*  Solution to: https://www.hackerrank.com/challenges/diagonal-difference/problem */
 int diagonalDifference(vector<vector<int>> a) {
     int rem=0;
     int s=a.size();
