@@ -28,3 +28,12 @@ void inOrder(node *root) {
     if(root->right!=NULL)
         inOrder(root->right);
 }
+
+
+void postOrder(node *root) {
+    if(root->left!=NULL)
+        postOrder(root->left);
+    if(root->right!=NULL)
+        postOrder(root->right);
+    cout << root->data<< " ";
+}
