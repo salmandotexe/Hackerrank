@@ -19,3 +19,12 @@ void preOrder(node *root) {
     if(ptr->right!=NULL)
         preOrder(ptr->right);
 }
+
+
+void inOrder(node *root) {
+    if(root->left!=NULL)
+        inOrder(root->left);
+    cout << root->data << " ";
+    if(root->right!=NULL)
+        inOrder(root->right);
+}
