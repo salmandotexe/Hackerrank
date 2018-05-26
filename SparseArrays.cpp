@@ -1,5 +1,10 @@
 #include <string>
 
+        /*
+                Solution to: https://www.hackerrank.com/challenges/sparse-arrays/problem
+        */
+
+
 // Complete the matchingStrings function below.
 
 vector<int> matchingStrings(vector<string> strings, vector<string> queries) {
