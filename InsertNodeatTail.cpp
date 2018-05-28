@@ -15,7 +15,7 @@ Node* Insert(Node *head,int data)
     n->next=NULL;
     if(head==NULL)
     {
-        return n;
+        return n; //returns pointer to type Node
     }
     Node *ptr=head;
     while(ptr->next!=NULL)
